@@ -1,0 +1,102 @@
+[
+  {
+    "id": "franconia_ridge",
+    "name": "Franconia Ridge Loop",
+    "region": "White Mountains, New Hampshire",
+    "country": "USA",
+    "lat": 44.1423,
+    "lon": -71.6811,
+    "distance_miles": 8.9,
+    "elevation_gain_ft": 3800,
+    "difficulty": "Hard (Strenuous)",
+    "terrain": "Alpine Ridge & Granite Boulders",
+    "highlights": "Peak fall foliage vistas across Pemigewasset Wilderness; above tree-line ridge walking.",
+    "waypoints": [
+      {"name": "Lafayette Place Trailhead", "lat": 44.1423, "lon": -71.6811, "type": "trailhead", "desc": "Start of Falling Waters Trail."},
+      {"name": "Cloudland Falls", "lat": 44.1488, "lon": -71.6690, "type": "water", "desc": "80-ft horsetail waterfall. Listen for the roar before the steep climb."},
+      {"name": "Little Haystack Mountain", "lat": 44.1528, "lon": -71.6441, "type": "summit", "desc": "Treeline exit. Intense western winds and panoramic autumn foliage."},
+      {"name": "Mount Lincoln", "lat": 44.1594, "lon": -71.6432, "type": "ridge", "desc": "Open knife-edge ridge. Turnaround checkpoint."},
+      {"name": "Mount Lafayette Summit", "lat": 44.1607, "lon": -71.6445, "type": "summit", "desc": "Highest point (5,260 ft). Stone foundation of 1850s summit house."},
+      {"name": "Greenleaf Hut", "lat": 44.1601, "lon": -71.6599, "type": "shelter", "desc": "AMC mountain hut on Eagle Lake."}
+    ]
+  },
+  {
+    "id": "alum_cave_leconte",
+    "name": "Alum Cave Trail to Mount LeConte",
+    "region": "Great Smoky Mountains, Tennessee",
+    "country": "USA",
+    "lat": 35.6295,
+    "lon": -83.4513,
+    "distance_miles": 11.0,
+    "elevation_gain_ft": 2760,
+    "difficulty": "Moderate-Strenuous",
+    "terrain": "Old-Growth Forest & Slate Bluffs",
+    "highlights": "Rhododendron tunnels, Arch Rock passage, massive concaved Alum Cave Bluffs, red spruce forest.",
+    "waypoints": [
+      {"name": "Alum Cave Trailhead", "lat": 35.6295, "lon": -83.4513, "type": "trailhead", "desc": "Parking along Walker Camp Prong."},
+      {"name": "Arch Rock", "lat": 35.6378, "lon": -83.4480, "type": "landmark", "desc": "Natural slate stone tunnel with stone staircase."},
+      {"name": "Inspiration Point", "lat": 35.6420, "lon": -83.4420, "type": "viewpoint", "desc": "Sweeping vista of Little Duck Hawk Ridge."},
+      {"name": "Alum Cave Bluffs", "lat": 35.6455, "lon": -83.4385, "type": "bluff", "desc": "80-foot concave cliff face. Turnaround checkpoint."},
+      {"name": "Mount LeConte Lodge & Cliff Top", "lat": 35.6540, "lon": -83.4365, "type": "summit", "desc": "6,593 ft summit. Historic spruce-fir wilderness."}
+    ]
+  },
+  {
+    "id": "yosemite_mist_trail",
+    "name": "Mist Trail to Nevada Fall",
+    "region": "Yosemite National Park, California",
+    "country": "USA",
+    "lat": 37.7327,
+    "lon": -119.5579,
+    "distance_miles": 5.4,
+    "elevation_gain_ft": 2000,
+    "difficulty": "Moderate",
+    "terrain": "Granite Steps & Spray Mist",
+    "highlights": "Vernal Fall spray, emerald pools, iconic granite monoliths, Merced River canyon.",
+    "waypoints": [
+      {"name": "Happy Isles Trailhead", "lat": 37.7327, "lon": -119.5579, "type": "trailhead", "desc": "Shuttle stop 16. Merced River crossing."},
+      {"name": "Vernal Fall Footbridge", "lat": 37.7280, "lon": -119.5480, "type": "water", "desc": "First view of the falls and drinking water refill."},
+      {"name": "Top of Vernal Fall", "lat": 37.7275, "lon": -119.5435, "type": "viewpoint", "desc": "Massive sheer granite apron overlooking the valley."},
+      {"name": "Silver Apron & Emerald Pool", "lat": 37.7260, "lon": -119.5390, "type": "water", "desc": "Glacial polished granite basin."},
+      {"name": "Top of Nevada Fall", "lat": 37.7250, "lon": -119.5325, "type": "summit", "desc": "594-foot thunderous waterfall crest. Turnaround point."}
+    ]
+  },
+  {
+    "id": "zion_angels_landing",
+    "name": "Angel's Landing Trail",
+    "region": "Zion National Park, Utah",
+    "country": "USA",
+    "lat": 37.2591,
+    "lon": -112.9515,
+    "distance_miles": 5.4,
+    "elevation_gain_ft": 1488,
+    "difficulty": "Strenuous (Exposed)",
+    "terrain": "Navajo Sandstone & Chain Ridge",
+    "highlights": "Walter's Wiggles 21 switchbacks, sheer 1,000-ft drops, spectacular 360-degree canyon views.",
+    "waypoints": [
+      {"name": "Grotto Trailhead", "lat": 37.2591, "lon": -112.9515, "type": "trailhead", "desc": "Zion Canyon Virgin River bridge."},
+      {"name": "Refrigerator Canyon", "lat": 37.2650, "lon": -112.9480, "type": "canyon", "desc": "Deep shady slot canyon breeze."},
+      {"name": "Walter's Wiggles", "lat": 37.2680, "lon": -112.9460, "type": "switchback", "desc": "21 steep stone switchbacks engineered in 1926."},
+      {"name": "Scout Lookout", "lat": 37.2692, "lon": -112.9475, "type": "viewpoint", "desc": "Turnaround checkpoint for non-chain hikers."},
+      {"name": "The Spine / Angel's Landing", "lat": 37.2690, "lon": -112.9485, "type": "summit", "desc": "Narrow fin of sandstone with anchor chains."}
+    ]
+  },
+  {
+    "id": "tour_du_mont_blanc_lac_blanc",
+    "name": "Lac Blanc Trail",
+    "region": "Chamonix-Mont-Blanc, Haute-Savoie",
+    "country": "France",
+    "lat": 45.9610,
+    "lon": 6.8920,
+    "distance_miles": 6.2,
+    "elevation_gain_ft": 2100,
+    "difficulty": "Moderate",
+    "terrain": "Glacial Cirque & Alpine Scree",
+    "highlights": "Mirror reflections of Mont Blanc massif, ibex and chamois grazing, alpine lakes at 2,352m.",
+    "waypoints": [
+      {"name": "La Flégère Base", "lat": 45.9610, "lon": 6.8920, "type": "trailhead", "desc": "Mid-station overlook above Chamonix valley."},
+      {"name": "Lac de la Flégère", "lat": 45.9680, "lon": 6.8910, "type": "water", "desc": "Gentle alpine tarn surrounded by larches."},
+      {"name": "Ladders Section", "lat": 45.9750, "lon": 6.8890, "type": "landmark", "desc": "Bolted metal ladders crossing granite step."},
+      {"name": "Lac Blanc Refuge", "lat": 45.9810, "lon": 6.8870, "type": "summit", "desc": "High alpine refuge (2,352m) directly opposite Mer de Glace."}
+    ]
+  }
+]
