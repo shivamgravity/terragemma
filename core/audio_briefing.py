@@ -7,27 +7,37 @@ from typing import Optional
 
 
 HTML_TEMPLATE = """
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        background: transparent;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    }
+    * {
+        box-sizing: border-box;
+    }
+</style>
 <div style="
     background: linear-gradient(135deg, #1b3815 0%, #2d5a27 100%);
     color: #ffffff;
-    padding: 20px;
+    padding: 16px 18px;
     border-radius: 12px;
     box-shadow: 0 4px 14px rgba(0,0,0,0.15);
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    margin: 15px 0;
+    margin: 0;
 ">
-    <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 12px;">
+    <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px;">
         <div style="display: flex; align-items: center; gap: 10px;">
             <span style="font-size: 24px;">🎧</span>
             <div>
-                <h3 style="margin: 0; color: #a3e635; font-size: 18px; font-weight: 600;">__TITLE__</h3>
-                <p style="margin: 2px 0 0 0; color: #d1fae5; font-size: 13px;">Screen-Free Mode • Listen & Pocket Your Device</p>
+                <h3 style="margin: 0; color: #a3e635; font-size: 17px; font-weight: 600;">__TITLE__</h3>
+                <p style="margin: 2px 0 0 0; color: #d1fae5; font-size: 12px;">Screen-Free Mode • Listen & Pocket Your Device</p>
             </div>
         </div>
         __TURNAROUND_BADGE__
     </div>
     
-    <div style="background: rgba(0, 0, 0, 0.2); border-left: 3px solid #a3e635; padding: 10px 14px; border-radius: 6px; font-size: 13px; color: #ecfdf5; line-height: 1.5; margin-bottom: 15px; font-style: italic;">
+    <div style="background: rgba(0, 0, 0, 0.22); border-left: 3px solid #a3e635; padding: 8px 12px; border-radius: 6px; font-size: 13px; color: #ecfdf5; line-height: 1.45; margin-bottom: 12px; font-style: italic;">
         "__TEXT_TO_SPEAK__"
     </div>
 

@@ -314,9 +314,10 @@ with tab1:
             title=f"{trail_data['name']} Audio Briefing",
             turnaround_time=g["turnaround_time"]
         )
-        components.html(audio_html, height=190)
+        components.html(audio_html, height=215, scrolling=False)
 
-        # Markdown Text Guide
+        st.markdown("<div style='margin-top: 15px;'></div>", unsafe_allow_html=True)
+        st.markdown("### 📋 Written Field Briefing & Landmark Anchors")
         st.markdown(g["guide_markdown"])
         st.caption(f"⚡ Inferred via {g['source']} in {g['latency_ms']} ms • Zero telemetry transmitted.")
 
