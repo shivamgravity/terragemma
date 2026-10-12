@@ -8,6 +8,10 @@
 [![Local Inference](https://img.shields.io/badge/Inference-100%25%20On--Device%20(Ollama)-blue.svg)](https://ollama.com)
 [![Privacy](https://img.shields.io/badge/Privacy-Zero%20Cloud%20Telemetry-emerald.svg)](#why-open-innovation-matters)
 
+<p align="center">
+  <img src="assets/cover.jpg" alt="TerraGemma Cover Banner" width="100%" style="border-radius: 10px;" />
+</p>
+
 ---
 
 ## 🌿 The Philosophy: Make the Screen the Shortest Part of the Hike
